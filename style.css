@@ -297,7 +297,7 @@ height: 50rem;
 top: 10rem;
 right: 15rem;
 position: absolute;
-
+overflow: hidden;
 }
 .video{
   width: 100%;
@@ -310,6 +310,11 @@ width: 100%;
 position: absolute;
 bottom: 0;
 background-color: rgba(0, 0, 0, 0.7);
+transform: translateY(calc(100% - 0.4rem));
+transition: transform 0.4s;
+}
+.video-wrapper:hover .controls{
+  transform: translateY(0);
 }
 .video-bar-wrapper{
 width: 100%;
@@ -323,6 +328,7 @@ left: 0;
 height: 100%;
 width: 20%;
 background-color:#ee0f0f;
+transition: width .2s linear;
 }
 .buttons{
   padding: 2rem 1rem 1rem 1rem;
