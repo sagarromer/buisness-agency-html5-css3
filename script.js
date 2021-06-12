@@ -47,3 +47,25 @@ video.addEventListener('timeupdate', () =>{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
